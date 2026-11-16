@@ -1,28 +1,28 @@
 class Ambit < Formula
   desc "Install, check and validate Ambit, the open-source MCP and LLM gateway"
   homepage "https://ambitproject.dev"
-  version "0.3.0"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/craftsman-apps/ambit/releases/download/v0.3.0/ambit_darwin_arm64.tar.gz"
-      sha256 "6d5d9660cf69bb682ffe982ffbeda028b50caab5c7d8fc0a4ae444f61b096c99"
+      url "https://github.com/craftsman-apps/ambit/releases/download/v0.4.0/ambit_darwin_arm64.tar.gz"
+      sha256 "136d08632b3f0e12552c94848e15571ad7a48dcb47ae804b3b115418dea09b1d"
     end
     on_intel do
-      url "https://github.com/craftsman-apps/ambit/releases/download/v0.3.0/ambit_darwin_amd64.tar.gz"
-      sha256 "b27f2a9979b10d7d7a7cc27225be11f8f12ad202a7816421f354b39f80d6ec5b"
+      url "https://github.com/craftsman-apps/ambit/releases/download/v0.4.0/ambit_darwin_amd64.tar.gz"
+      sha256 "07ed05a6ee2f725a77cb78a29bbe75a06154aa5b6dfe6cc90ddad27d60e90c9e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/craftsman-apps/ambit/releases/download/v0.3.0/ambit_linux_arm64.tar.gz"
-      sha256 "919279807e1f0ce695b74e86f59eec2c2e0b46a6fcde620a9ffd7e2d00540383"
+      url "https://github.com/craftsman-apps/ambit/releases/download/v0.4.0/ambit_linux_arm64.tar.gz"
+      sha256 "a013126fc588d0c4f7d277bfe716d4810fd37d27f6d4229fde468ae635ab61c5"
     end
     on_intel do
-      url "https://github.com/craftsman-apps/ambit/releases/download/v0.3.0/ambit_linux_amd64.tar.gz"
-      sha256 "8813cf9f4ec3d6fda204e8117831b23a621143a0ad0859614259c62cfe7fc653"
+      url "https://github.com/craftsman-apps/ambit/releases/download/v0.4.0/ambit_linux_amd64.tar.gz"
+      sha256 "460ce919f458cc734eab0872db7b86f20df8085e75921e9f2696c00018417719"
     end
   end
 
